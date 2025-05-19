@@ -1,0 +1,14 @@
+{
+  "name": "spalk-parser-cli",
+  "version": "1.0.0",
+  "main": "src/parser.ts",
+  "license": "MIT",
+  "scripts": {
+    "parse": "cat $1 | ts-node src/parser.ts"
+  },
+  "devDependencies": {
+    "@types/node": "^22.15.19",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.3"
+  }
+}
