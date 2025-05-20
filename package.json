@@ -1,7 +1,7 @@
 {
   "name": "spalk-parser-cli",
   "version": "1.0.0",
-  "main": "src/parser.ts",
+  "main": "src/parser.js",
   "license": "MIT",
   "scripts": {
     "parse": "sh -c 'cat \"$1\" | ts-node src/parser.ts' --"
