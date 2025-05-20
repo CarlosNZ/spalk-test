@@ -4,7 +4,7 @@
   "main": "src/parser.ts",
   "license": "MIT",
   "scripts": {
-    "parse": "cat $1 | ts-node src/parser.ts"
+    "parse": "sh -c 'cat \"$1\" | ts-node src/parser.ts' --"
   },
   "devDependencies": {
     "@types/node": "^22.15.19",
