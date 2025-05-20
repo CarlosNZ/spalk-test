@@ -29,3 +29,5 @@ yarn parse artifacts/test_success.ts
 # OR
 cat artifacts/test_success.ts | npx ts-node src/parser.ts
 ```
+
+You can change `const DEBUG = true;` near the top of the file for additional debug info in the output.
